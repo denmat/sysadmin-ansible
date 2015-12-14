@@ -2,6 +2,7 @@ require 'bundler/setup'
 require 'rake'
 require 'rspec/core/rake_task'
 
+Bundler.setup
 task :spec    => 'spec:all'
 task :default => :spec
 
