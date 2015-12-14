@@ -10,4 +10,4 @@ RUN ansible-playbook build.yml -c local
 
 EXPOSE 80
 
-ENTRYPOINT ["/usr/local/bin/apachectl", "-DFOREGROUND"]
+ENTRYPOINT ["/usr/sbin/apachectl", "-DFOREGROUND"]
