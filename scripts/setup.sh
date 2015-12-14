@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+eval $(docker-machine env dinghy)
 
 PATH=/opt/boxen/rbenv/shims:$PATH
 
